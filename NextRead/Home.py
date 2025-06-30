@@ -64,11 +64,11 @@ col1, col2 = st.columns([1, 1])
 
 with col1:
     if st.button("📖 Recommend Books"):
-        switch_page("Frontend.py")
+        switch_page("Frontend")
 
 with col2:
     if st.button("📊 View Model Dashboard"):
-        switch_page("Dashboard.py")
+        switch_page("Dashboard")
 
 
 st.markdown("</div>", unsafe_allow_html=True)
